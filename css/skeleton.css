@@ -403,7 +403,29 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (max-width: 400px) {
+  .logo{
+  text-align: center !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+header nav{
+  text-align: center !important;
+}
+
+header .headertext{
+  margin-top: 0 !important;
+}
+
+
+section.portfolio .thumb{
+  left: 5%;
+}
+
+.skillset .git-logo img{
+  margin-bottom: 1em !important;
+}
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
@@ -415,7 +437,9 @@ there.
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+}
 
 
 /*CUSTOM STYLES
