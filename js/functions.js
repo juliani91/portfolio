@@ -2,10 +2,10 @@ $(window).scroll(function(){
 
 var wScroll = $(this).scrollTop();
 
-if(wScroll > $('.aboutMe').offset().top){
+if(wScroll > $('.first-list').offset().top - ($(window).height() / 1.2 )){
 
 	$('.first-list .thumb').each(function(i){
-		console.log("hi");
+		
 		setTimeout(function(){
 			$('.first-list .thumb').eq(i).addClass('is-visible');
 		},150 * (i+1));
