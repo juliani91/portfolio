@@ -638,7 +638,7 @@ section.portfolio .article-meta {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(61, 150, 203, 0.7);
+    background: rgba(0,0,0,0.5);
     color: white;
     padding: 10px;
     -webkit-transform: translate(0%, 100%) scale(1.5);
@@ -650,11 +650,13 @@ section.portfolio .article-meta {
 
 section.portfolio .article-meta .name {
     font-size: 18px;
+    font-weight: bold
     line-height: 1.2;
 }
 
 section.portfolio .article-meta .date{
   font-style: italic;
+  font-weight: bold;
 }
 
 
@@ -665,6 +667,44 @@ section.portfolio .thumb:hover .article-meta {
     -ms-transform: translate(0%, 0%) scale(1);
     transform: translate(0%, 0%) scale(1);
 }
+/*Changing date font color*/
+.first-list a:nth-child(1) .date{
+  color: #FFDD55;
+}
+
+.first-list a:nth-child(2) .date{
+  color: #97c024;
+}
+
+.first-list a:nth-child(3) .date{
+  color: #00B294;
+}
+
+.first-list a:nth-child(4) .date{
+  color: #97c024;
+}
+.first-list a:nth-child(5) .date{
+  color: #97c024;
+}
+.first-list a:nth-child(6) .date{
+  color: #FFDD55;
+}
+.first-list a:nth-child(7) .date{
+  color: #FFDD55;
+}
+
+.first-list a:nth-child(8) .date{
+  color: #FFDD55;
+}
+
+/*Changing position on portfolio images*/
+.first-list a:nth-child(6){
+  background-position: top center;
+}
+.first-list a:nth-child(8){
+  background-position: 30%;
+}
+
 /*Knowledge and Education*/
 
 .skillset{
