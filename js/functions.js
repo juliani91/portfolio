@@ -16,3 +16,16 @@ if(wScroll > $('.first-list').offset().top - ($(window).height() / 1.2 )){
 }
 
 });
+$(document).ready(function(){
+
+
+	function articleTada(){
+  var randNum = Math.floor(Math.random() * $('.first-list .thumb').length) +1
+  $('.first-list .thumb').eq(randNum).addClass('animating')
+    .siblings().removeClass('animating');
+}
+
+setInterval(function(){articleTada()}, 3000);
+
+});
+

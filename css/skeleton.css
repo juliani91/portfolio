@@ -650,7 +650,7 @@ section.portfolio .article-meta {
 
 section.portfolio .article-meta .name {
     font-size: 18px;
-    font-weight: bold
+    font-weight: bold;
     line-height: 1.2;
 }
 
@@ -667,6 +667,19 @@ section.portfolio .thumb:hover .article-meta {
     -ms-transform: translate(0%, 0%) scale(1);
     transform: translate(0%, 0%) scale(1);
 }
+
+/*testing tada*/
+
+   section.portfolio .thumb.animating {
+      -webkit-animation-name: jello;
+              animation-name: jello;
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+      z-index: 1; }
+
+
 /*Changing date font color*/
 .first-list a:nth-child(1) .date{
   color: #FFDD55;
