@@ -27,5 +27,14 @@ $(document).ready(function(){
 
 setInterval(function(){articleTada()}, 3000);
 
-});
+   $("#toPortfolio").click(function (e){
+   	e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $("#forScroll").offset().top
+
+                }, 1500);
+ $("#toPortfolio").attr("href",$("a").attr("href").replace(/#/, "")); 
+            }); // end of scroll function
+
+}); // end of document ready
 
