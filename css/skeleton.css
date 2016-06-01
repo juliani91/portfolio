@@ -392,58 +392,6 @@ hr {
   clear: both; }
 
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-
-/* Larger than mobile */
-@media (max-width: 400px) {
-  .logo{
-  text-align: center !important;
-  border-bottom: 1px solid #ffffff !important;
-}
-
-header nav{
-  text-align: center !important;
-}
-
-header .headertext{
-  margin-top: 0 !important;
-}
-
-
-section.portfolio .thumb{
-  left: 5%;
-}
-
-.skillset .git-logo img{
-  margin-bottom: 1em !important;
-}
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (max-width: 1000px) {
-
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
-
-}
-
-
 /*CUSTOM STYLES
 --------------------------------------------------
 */
@@ -453,7 +401,7 @@ section.portfolio .thumb{
 body > header{
   background: url('../images/sublime-res.jpg') top center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 360px;
   width: 100%;
 }
 
@@ -514,6 +462,7 @@ header h1{
   text-shadow: 0 1px 2px rgba(0,0,0,0.2);
   text-align: center;
   margin-bottom: 0.3em;
+  margin-top: 0.8em;
 }
 
 header p{
@@ -805,4 +754,93 @@ footer p {
   text-transform: uppercase;
   font-size: 0.7em;
   margin-top: 2em;
+}
+
+/*MEDIA QUERIES*/
+
+/* Larger than mobile */
+@media (max-width: 399px) {
+  .logo{
+  text-align: center !important;
+  border-bottom: 1px solid #ffffff ;
+}
+
+header nav{
+  text-align: center !important;
+}
+
+header .headertext{
+  margin-top: 0 !important;
+}
+
+
+section.portfolio .thumb{
+  left: 5%;
+}
+
+.skillset .git-logo img{
+  margin-bottom: 1em !important;
+  }
+
+}
+
+
+@media (min-width: 400px) {
+  .logo{
+  text-align: center !important;
+  border-bottom: 1px solid #ffffff;
+}
+
+header nav{
+  text-align: center !important;
+}
+
+header .headertext{
+  margin-top: 0 !important;
+}
+
+
+section.portfolio .thumb{
+  left: 5%;
+}
+
+.skillset .git-logo img{
+  margin-bottom: 1em !important;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+  .logo{
+  border-bottom: none;
+  }
+
+  section.portfolio .first-list{
+    width: 105%;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    section.portfolio .first-list{
+    width: 100%;
+  }
+}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {
+
+    section.portfolio .first-list{
+    width: 100%;
+  }
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    section.portfolio .first-list{
+    width: 100%;
+  }
 }
