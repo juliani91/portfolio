@@ -765,10 +765,6 @@ footer p {
   border-bottom: 1px solid #ffffff ;
 }
 
-header{
-  height: 100vh;
-}
-
 header nav{
   text-align: center !important;
 }
@@ -778,7 +774,7 @@ header .headertext{
 }
 
 header h1{
-  margin-top: 0.5em;
+  margin-top: 0.2em;
 }
 
 header p{
@@ -802,13 +798,8 @@ section.portfolio .thumb{
   border-bottom: 1px solid #ffffff;
 }
 
-header{
-  height: 100vh;
-}
-
 header nav{
   text-align: center !important;
-  margin-top: 5em;
 }
 
 header .headertext{
@@ -816,7 +807,7 @@ header .headertext{
 }
 
 header h1{
-  margin-top: 1em;
+  margin-top: 0.2em;
 }
 
 header p{
@@ -839,16 +830,6 @@ section.portfolio .thumb{
   .logo{
   border-bottom: none;
   }
-  header{
-    height: 360px;
-  }
-  header h1{
-    margin-top: 0.5em;
-  }
-  header nav{
-  text-align: center !important;
-  margin-top: 3em;
-}
 
   section.portfolio .first-list{
     width: 105%;
@@ -861,11 +842,6 @@ section.portfolio .thumb{
     header h1{
       margin-top: 0.8em;
     }
-
-      header nav{
-  
-  margin-top: 3em;
-}
     section.portfolio .first-list{
     width: 100%;
   }
@@ -874,11 +850,6 @@ section.portfolio .thumb{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 
-
-    header nav{
-    
-    margin-top: 3em;
-}
     section.portfolio .first-list{
     width: 100%;
   }
@@ -887,11 +858,6 @@ section.portfolio .thumb{
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-
-    header nav{
-    
-    margin-top: 3em;
-}
     section.portfolio .first-list{
     width: 100%;
   }
