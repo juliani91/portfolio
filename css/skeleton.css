@@ -773,6 +773,13 @@ header .headertext{
   margin-top: 0 !important;
 }
 
+header h1{
+  margin-top: 0.2em;
+}
+
+header p{
+  margin-bottom: 2.5em;
+}
 
 section.portfolio .thumb{
   left: 5%;
@@ -797,6 +804,14 @@ header nav{
 
 header .headertext{
   margin-top: 0 !important;
+}
+
+header h1{
+  margin-top: 0.2em;
+}
+
+header p{
+  margin-bottom: 2.5em;
 }
 
 
@@ -824,13 +839,16 @@ section.portfolio .thumb{
 /* Larger than tablet */
 @media (min-width: 750px) {
 
+    header h1{
+      margin-top: 0.8em;
+    }
     section.portfolio .first-list{
     width: 100%;
   }
 }
 
 /* Larger than desktop */
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
 
     section.portfolio .first-list{
     width: 100%;
