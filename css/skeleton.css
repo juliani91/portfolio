@@ -524,6 +524,7 @@ header .right-btn a:hover{
   border-radius: 50%;
   width: 100px;
 }
+img.roll-animation{animation: rollIn 0.8s ease-in-out;}
 
 .aboutMe p {
   color: #9d9d9d;
@@ -672,7 +673,7 @@ section.portfolio .thumb:hover .article-meta {
 /*Knowledge and Education*/
 
 .skillset{
-  
+
   padding: 4em 0;
   text-align: center;
 }
@@ -680,7 +681,7 @@ section.portfolio .thumb:hover .article-meta {
 .skillset h2{
   color: #1a94ea;;
   font-weight: 300;
-  
+
 }
 
 .skillset p{
@@ -712,7 +713,7 @@ section.portfolio .thumb:hover .article-meta {
   box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
   transform: translate(0px, -10px);
   background: #1a94ea;
-  
+
 }
 
 .education p{
